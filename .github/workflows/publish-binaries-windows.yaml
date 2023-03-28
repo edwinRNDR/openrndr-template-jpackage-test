@@ -27,6 +27,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allowUpdates: true
-          replaceArtifacts: false
           body: Fully automated release
           artifacts: "./build/distributions/openrndr-application-windows.zip"
